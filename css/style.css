@@ -664,3 +664,15 @@
 }
 
 /*** Footer End ***/
+
+.btn-rojo {
+  background-color: #ff0000;
+  border: 2px solid #ff0000;
+  transition: background-color 0.2s ease; /* Animación suave */
+}
+
+/* Cuando el botón es presionado */
+.btn-rojo:active {
+  background-color: #000000; /* Cambia a negro */
+  border-color: #000000;
+}
